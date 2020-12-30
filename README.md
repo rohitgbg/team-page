@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](img/404-not-found-screenshot.png)
+![screenshot](imgages/../images/team-page.png)
 
 
 
