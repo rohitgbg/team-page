@@ -97,7 +97,7 @@ body {
 }
 
 .gallery__image img {
-  width: 100%;
+  width: 90%;
   height: 100%;
   object-fit: cover;
   display: block;
@@ -172,7 +172,7 @@ body {
   .header {
     flex-direction: column;
     grid-row: 1 / 2;
-    grid-column: col-start 2 / col-end 7;
+    grid-column: col-start 2 / col-end 6;
   }
 
   .header__title {
@@ -180,7 +180,7 @@ body {
   }
 
   .header__overview {
-    width: 100%;
+    width: 95%;
   }
 }
 
@@ -188,6 +188,7 @@ body {
 @media only screen and (max-width: 550px) {
   .container {
     margin: 2rem 5rem;
+    grid-template-columns: repeat(5, [col-start] minmax(6rem, 1fr) [col-end]);
   }
 
   .header {
@@ -199,7 +200,7 @@ body {
   }
 
   .header__overview {
-    width: 100%;
+    width: 95%;
   }
 
   .gallery-container {
