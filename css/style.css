@@ -163,6 +163,8 @@ body {
   font-size: 1.4rem;
   margin-top: 8rem;
   text-align: center;
+  color: #a9a9a9;
+  margin-left: 2rem;
 }
 
 /* 768px or less */
@@ -204,7 +206,7 @@ body {
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(13, 6vw);
     grid-row-gap: 6rem;
-    grid-column-gap: 8rem;
+    grid-column-gap: 7.5rem;
   }
 
   .gallery__item--3 {
